@@ -91,7 +91,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LWi-hD-u0L">
-                                <rect key="frame" x="10" y="176" width="355" height="365"/>
+                                <rect key="frame" x="10" y="174" width="355" height="369"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -110,14 +110,14 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2UR-UT-dfz">
-                                <rect key="frame" x="40" y="40" width="305" height="46"/>
+                                <rect key="frame" x="40" y="40" width="305" height="44"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="27"/>
                                 <state key="normal" title="Leaderboard">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vt4-PP-17X">
-                                <rect key="frame" x="130" y="571" width="115" height="46"/>
+                                <rect key="frame" x="130" y="573" width="115" height="44"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="27"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Back">
@@ -184,7 +184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3h2-Aa-PDJ">
-                                <rect key="frame" x="227" y="602" width="104" height="45"/>
+                                <rect key="frame" x="281" y="604" width="50" height="43"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="26"/>
                                 <state key="normal" title="Play">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -194,7 +194,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPR-VS-7Pu">
-                                <rect key="frame" x="43" y="602" width="104" height="45"/>
+                                <rect key="frame" x="43" y="604" width="44" height="43"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="26"/>
                                 <state key="normal" title="Exit">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -204,7 +204,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alien" translatesAutoresizingMaskIntoConstraints="NO" id="BhT-AW-ly6">
-                                <rect key="frame" x="38" y="254.5" width="70" height="70"/>
+                                <rect key="frame" x="38" y="253" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="OGU-1x-DIz"/>
                                     <constraint firstAttribute="width" constant="70" id="U3N-u8-5ah"/>
@@ -212,7 +212,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alien2" translatesAutoresizingMaskIntoConstraints="NO" id="bmr-aI-JtI">
-                                <rect key="frame" x="152.5" y="254.5" width="70" height="70"/>
+                                <rect key="frame" x="152.5" y="253" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="33V-2Q-ygu"/>
                                     <constraint firstAttribute="width" constant="70" id="bN6-fG-Xk5"/>
@@ -220,7 +220,7 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alien3" translatesAutoresizingMaskIntoConstraints="NO" id="jDS-cA-Buj">
-                                <rect key="frame" x="261" y="254.5" width="70" height="70"/>
+                                <rect key="frame" x="261" y="253" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jDS-cA-Buj" secondAttribute="height" multiplier="1:1" id="BLj-hr-CDg"/>
                                     <constraint firstAttribute="height" constant="70" id="HO2-PC-5qv"/>
@@ -228,7 +228,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHt-Yc-Mkf">
-                                <rect key="frame" x="145.5" y="335.5" width="84" height="30"/>
+                                <rect key="frame" x="163" y="334" width="49" height="29"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="14"/>
                                 <state key="normal" title="Change">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -238,13 +238,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="choose your enemy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmF-gh-gmQ">
-                                <rect key="frame" x="43.5" y="162" width="288" height="22.5"/>
+                                <rect key="frame" x="108.5" y="162" width="158.5" height="21"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29C-LV-gGc">
-                                <rect key="frame" x="254" y="335.5" width="84" height="30"/>
+                                <rect key="frame" x="289" y="334" width="49" height="29"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="14"/>
                                 <state key="normal" title="Change">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -254,7 +254,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuY-u4-is8">
-                                <rect key="frame" x="31" y="335.5" width="84" height="30"/>
+                                <rect key="frame" x="31" y="334" width="49" height="29"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="14"/>
                                 <state key="normal" title="Change">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -358,7 +358,7 @@
                                     <action selector="continueBtn:" destination="RJG-vj-Xxf" eventType="touchUpInside" id="5c1-tr-J5D"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fP-yi-WBh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fP-yi-WBh">
                                 <rect key="frame" x="117.5" y="94" width="140" height="35"/>
                                 <fontDescription key="fontDescription" name="Early-GameBoy" family="Early GameBoy" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

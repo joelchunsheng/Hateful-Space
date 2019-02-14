@@ -62,9 +62,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         displayLives()
         
-        gameTimer = Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(addAlien), userInfo: nil, repeats: true)
+        gameTimer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(addAlien), userInfo: nil, repeats: true)
         
-        gameTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(fireTorpedo), userInfo: nil, repeats: true)
+        gameTimer = Timer.scheduledTimer(timeInterval: 0.7, target: self, selector: #selector(fireTorpedo), userInfo: nil, repeats: true)
 
 
         physicsWorld.contactDelegate = self
